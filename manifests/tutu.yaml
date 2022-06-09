@@ -1,0 +1,16 @@
+include: fedora-coreos.yaml 
+
+automatic-version-prefix: "${releasever}.<date:%Y%m%d>.dev"
+mutate-os-release: "${releasever}"
+   
+packages:
+  - kernel-longterm
+
+exclude-packages:
+  - kernel
+  #- kernel-core
+  - kernel-modules
+
+remove-from-packages:
+  - - kernel-core
+    - "/"

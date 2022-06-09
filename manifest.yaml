@@ -1,5 +1,5 @@
 ref: fedora/${basearch}/coreos/testing-devel
-include: manifests/fedora-coreos.yaml
+include: manifests/tutu.yaml
 
 releasever: "34"
 
@@ -15,7 +15,7 @@ repos:
   # GitHub Action.
   - fedora
   - fedora-updates
-  - kwizart-kernel-longterm-5.15-fedora.repo
+  - kwizart-kernel-longterm-5.15-fedora
 
 add-commit-metadata:
   fedora-coreos.stream: testing-devel
