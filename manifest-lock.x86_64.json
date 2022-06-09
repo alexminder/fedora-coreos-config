@@ -15,9 +15,6 @@
     "NetworkManager-tui": {
       "evra": "1:1.30.6-1.fc34.x86_64"
     },
-    #"WALinuxAgent-udev": {
-    #  "evra": "2.3.0.2-1.fc34.noarch"
-    #},
     "acl": {
       "evra": "2.3.1-1.fc34.x86_64"
     },
@@ -462,15 +459,6 @@
     "kbd-misc": {
       "evra": "2.4.0-2.fc34.noarch"
     },
-    #"kernel": {
-    #  "evra": "5.13.4-200.fc34.x86_64"
-    #},
-    #"kernel-core": {
-    #  "evra": "5.13.4-200.fc34.x86_64"
-    #},
-    #"kernel-modules": {
-    #  "evra": "5.13.4-200.fc34.x86_64"
-    #},
     "kexec-tools": {
       "evra": "2.0.21-5.fc34.x86_64"
     },
