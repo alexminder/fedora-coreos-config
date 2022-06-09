@@ -15,6 +15,7 @@ repos:
   # GitHub Action.
   - fedora
   - fedora-updates
+  - kwizart-kernel-longterm-5.15-fedora.repo
 
 add-commit-metadata:
   fedora-coreos.stream: testing-devel
